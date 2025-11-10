@@ -120,3 +120,23 @@ while guess != password:
     guess = input('What is password?')
 
 print('Correct Password')
+
+# Continue
+
+i = 0
+while i < 10:
+    i += 1
+    if i % 2 == 0:
+        continue
+    print(i)
+
+# Break
+
+li = [12,15,264,234,12,577,109]
+
+for item in li:
+    if item > 500:
+        print('Big number found', item)
+        break
+    print(item)
+    print('random things happening until I find what Im looking for')
