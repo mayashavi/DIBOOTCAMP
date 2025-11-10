@@ -1,0 +1,13 @@
+URL: https://github.com/mayashavi/DIBOOTCAMP/blob/main/week1/day1/DailyChallenge/BuildAString.py
+suggestions for improvement:
+- The code does not address either of the challenges presented in the instructions. It takes a string input, checks its length, prints the first and last characters, and builds the string character by character. These actions are not related to generating multiples of a number or removing consecutive duplicate letters.
+- Remove the string length check. The challenges do not put any length restrictions on the inputs.
+- Ensure your code attempts to address at least one of the problems in the challenge, specifically generating multiples or removing consecutive duplicates from a string.
+- For the multiples challenge, prompt for two integers and create a list of multiples of the first number until you reach the length equal to the second number.
+- For the duplicate removal challenge, prompt for a string, and iterate through it, adding characters to a new string only if they're not the same as the previous character.
+Brief justification:
+- correctness: The code is completely unrelated to the challenges in the provided chapter content, which involve generating lists of multiples and removing consecutive duplicate letters from a string. The code checks string length and prints characters, bearing no relevance to the tasks at hand. Therefore, the correctness score is 0%.
+- readability: The code is reasonably readable with clear variable names and simple logic. The indentation and comments are appropriate, contributing to overall readability.
+- performance: The code's performance is acceptable for the simple tasks it performs, which include string length checking, character access, and string concatenation. There are no obvious performance bottlenecks.
+- security: The code is relatively secure, as it only takes string input and performs basic string manipulations. It doesn't involve any operations that could lead to security vulnerabilities like SQL injection or cross-site scripting.
+
