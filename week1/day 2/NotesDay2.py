@@ -1,3 +1,11 @@
+#Data Structures
+#Lists: mutable, ordered
+#Tuples: unmutable, ordered
+#Sets: mutable, unordered, don't accept repeated items
+
+#Sequence methods
+#Loops: while, for
+
 mylist = ["apple", "banana", "cherry", 12, 1.09, True]
 print(mylist)
 print(mylist[2])

@@ -125,4 +125,3 @@ for age in ages:
     total_cost += price
 
 print(f"\nTotal ticket cost for your family is: ${total_cost}")
-
