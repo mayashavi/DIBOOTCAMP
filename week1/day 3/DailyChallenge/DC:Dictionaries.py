@@ -15,20 +15,27 @@ print(dictionary)
 items_purchase = {"Water": "$1", "Bread": "$3", "TV": "$1,000", "Fertilizer": "$20"}
 wallet = "$300"
 
-# Step 1: Clean the data
-# Remove $ and , then convert to int
-clean_items = {item: int(price.replace("$", "").replace(",", "")) 
-               for item, price in items_purchase.items()}
-wallet_amount = int(wallet.replace("$", "").replace(",", ""))
+#Clean the data: Remove $ + then convert to int
+clean_wallet = int(wallet.replace('$',''))
 
+#Create an empty list called basket
 basket = []
 
-for item, price in clean_items.items():
-    if wallet_amount >= price:
+for item, price in items_purchase.items():
+    cleaned_price = int(price.replace('$','').replace(',',''))
+    if cleaned_price <= clean_wallet:
         basket.append(item)
-        wallet_amount -= price
+        clean_wallet -= cleaned_price
+    else:
+        continue
+    if basket:
+        print(sorted(basket))
+    else:
+        print("nothing")
 
-if len(basket) == 0:
-    print("Nothing")
-else:
-    print(sorted(basket))
+
+#Check if the item is affordable (check the price):
+# - if it is, add to the basket and take the price from the wallet
+# - if not, skip it
+# if we can't buy anything: print "nothing"
+# if we can buy something: print the basket in the alphabetical order
