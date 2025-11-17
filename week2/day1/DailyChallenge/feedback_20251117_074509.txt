@@ -1,0 +1,11 @@
+URL: https://github.com/mayashavi/DIBOOTCAMP/blob/main/week2/day1/DailyChallenge/DC_OldMacDonaldsFarm.py
+suggestions for improvement:
+- The farm name attribute in the `__init__` method is assigned to `self.farm_name` instead of `self.name` as instructed in step 2. This should be corrected for consistency with the instructions.
+- Consider adding the `get_animal_types` and `get_short_info` methods as described in the bonus section to enhance the class functionality.
+- Implement the upgraded `add_animal` method to handle multiple animals using `**kwargs` as described in the instructions.
+Brief justification:
+- correctness: The code implements the `Farm` class with `__init__`, `add_animal`, and `get_info` methods as described in steps 1-5. It initializes the farm with a name and an empty dictionary to store animals. It adds animals with their counts to the dictionary and generates a formatted string with farm information. However, it's missing the bonus steps (steps 6-8) and `farm_name` is assigned to `self.farm_name` instead of `self.name`.
+- readability: The code is well-structured and easy to understand, with clear method names and comments. The use of f-strings makes the code more readable, especially in the `get_info` method.
+- performance: The code's performance is good, with simple operations and no complex algorithms. Dictionary lookups and string formatting are generally efficient.
+- security: There are no apparent security concerns, as the code doesn't involve external input or sensitive operations.
+
