@@ -51,3 +51,5 @@ def delete_item(menu_dict):
         print("Item not found.")
     pass
 delete_item(menu)
+
+#CRUD = CREATE, REPORT, UPDATE, DELETE
