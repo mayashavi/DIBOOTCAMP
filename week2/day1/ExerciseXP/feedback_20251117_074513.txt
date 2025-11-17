@@ -1,0 +1,10 @@
+URL: https://github.com/mayashavi/DIBOOTCAMP/blob/main/week2/day1/ExerciseXP/W2D1XP.py
+suggestions for improvement:
+- Consider adding more comments to explain complex logic or non-obvious steps, although the code is quite clear already.
+- In the `Dog` class's `size` method, the `print` statements could be returned as strings for better reusability.
+Brief justification:
+- correctness: The code accurately addresses all four exercises, creating classes, instantiating objects, defining methods, and using attributes as described in each exercise. The logic within each class and function aligns with the specified requirements, including printing details, comparing sizes, and sorting animals. All steps within each problem are handled and produce the expected outputs.
+- readability: The code is well-structured and easy to follow. Class and method names are descriptive. The use of f-strings enhances readability. Only minor improvements could be made with additional comments in specific areas.
+- performance: The code is efficient for the given tasks. The sorting algorithm used in the `Zoo` class is appropriate for the expected number of animals. No performance bottlenecks are apparent.
+- security: The code doesn't involve any external input or operations that could pose security risks. All operations are performed internally within the defined classes and functions.
+
