@@ -19,7 +19,6 @@ class Farm:
         info += "\nE-I-E-I-O!"
         return info       
 
-# Test the code 
 macdonald = Farm("McDonald")
 macdonald.add_animal('cow', 5)
 macdonald.add_animal('sheep')

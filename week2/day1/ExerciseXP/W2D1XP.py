@@ -103,7 +103,7 @@ class Zoo:
     def get_groups(self):
         groups = self.sort_animals()
         for letter, animals in groups.items():
-            print(f"{letter}: {animals}")
+            print(f'{letter}: {animals}')
 
 my_zoo = Zoo("Fried Calamari")
 
