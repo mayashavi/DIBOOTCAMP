@@ -1,4 +1,9 @@
 #OOP: object oriented programming
+#Class: blueprint of objects
+#Attributes: a characteristic of an object
+#Methods: functions related to a certain class
+#Object/Instance: an example/one instance of the example, structured as a dictionary
+
 
 #HOW TO CREATE A CLASS OF OBJECTCS
 #init to initialize
