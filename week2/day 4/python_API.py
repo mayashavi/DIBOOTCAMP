@@ -1,4 +1,1 @@
 #API
-
-import requests
-
